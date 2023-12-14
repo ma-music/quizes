@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<body>
+	<h1>Video Survey</h1>
+		<table>
+		  <tr>
+			<th>
+			<img src="https://i.natgeofe.com/n/4cebbf38-5df4-4ed0-864a-4ebeb64d33a4/NationalGeographic_1468962_3x2.jpg?w=1638&h=1092" width="400">
+			</th>
+
+			<th><iframe width="400" height= "250" src="https://www.youtube.com/embed/JIjV73k3AxM" title="1 Minute of Cats Being Cats... #funnycats #catshorts #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></th>
+			<th><iframe width="400" height="250" src="https://www.youtube.com/embed/Fpnn03k42MA" ></iframe></th>
+		  </tr>
+		</table>
+		
+		<video width="400" autoplay>
+		<source src="screenrecording.mp4" type="video/mp4">
+		</video>
+		<br><br><br>
+		<h3>Please provide your feedback</h3>
+		<form action "mailto:mlavery@student.antilles.vi" method="post" endtype="text/plain">
+			<label for="fname">First name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<label for="lname">Last name:</label><br>
+			<input type="text" id="lname" name="lname"><br>
+			<label for="email">Email:</label><br>
+			<input type="text" id="email" name="email"><br>
+			<p>Which piece of media was your favorite</p>
+			  <input type="radio" id="catpic" name="fav_media" value="catpic">
+			  <label for="catpic">Cat Picture</label><br>
+			  <input type="radio" id="catvid" name="fav_media" value="catvid">
+			  <label for="catvid">Cat Video</label><br>
+			  <input type="radio" id="dog" name="fav_media" value="dog">
+			  <label for="dog">Dog Video</label><br><br>
+			  <input type="submit" value="Submit">
+		</form>
+	</body>
+	
+</html>
